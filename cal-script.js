@@ -234,8 +234,6 @@ function popUp(popupText) {
 function changecolor(el, ele) {
     if(el == 'total') {
         return
-    } else if(el=='trans') {
-        console.log(ele);
     }
     let addclass;
     if (ele <= 50) {addclass = "bg-failure";}
