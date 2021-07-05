@@ -172,7 +172,7 @@ function setVisibleImprove(text) {
                 text = transimp_txt[0]+transimp_txt[1]+transimp_txt[2];
             break;
     }
-    improveText.innerHTML = imp_txt+"<ul>"+text+"</ul>";
+    improveText.innerHTML = "<ul>"+text+"</ul>";
     improveBlock.style.display = "flex";
 }
 function setChanges(a_txt,color,ele,txt) {
