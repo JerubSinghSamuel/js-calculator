@@ -191,7 +191,7 @@ function setTotal() {
     if (rt_color == poor || rt_color == average) {a[i] = "Repeat Rate"; i++;}
     if (ry_color == poor || ry_color == average) {a[i] = "Recency Index"; i++;}
     if (ns_color == poor || ns_color == average) {a[i] = "NPS"; i++;}
-    if (ts_color == poor || ts_color == average) {a[i] = "Loyalty Trans";}
+    if (ts_color == poor || ts_color == average) {a[i] = "Loyalty Transaction";}
 
     for (let n=0; n<a.length-1; n++) {
         setText = setText + a[n] + ", ";
